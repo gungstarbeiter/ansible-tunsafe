@@ -54,7 +54,7 @@
   - name: Clone TunSafe git
     become: true
     git:
-      repo: https://github.com/TunSafe/TunSafe.git
+      repo: https://github.com/gungstarbeiter/TunSafe.git
       dest: /opt/tunsafe
       force: yes
 
