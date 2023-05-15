@@ -18,7 +18,7 @@ TunSafe has incorporated obfuscation in it's latest Release Candidate.
 
 ## Installation Instructions
 1. Install Ansible using `sudo apt install ansible` on the machine that will initiate the playbook.
-2. Clone repository using `git clone https://github.com/Freekers/ansible-tunsafe.git`
+2. Clone repository using `git clone https://github.com/gungstarbeiter/ansible-tunsafe.git`
 3. Edit `hosts` to reflect your setup, i.e. change IP, ports etc. `playbook.yml` does NOT need to be changed!
 4. Start playbook using `ansible-playbook playbook.yml --ask-become-pass`   
 
