@@ -36,7 +36,7 @@
     vars:
       packages:
       - git
-      - clang-15
+      - clang
       - make
 
   - name: Install Required Packages with UFW
@@ -48,13 +48,13 @@
       packages:
       - git
       - ufw
-      - clang-15
+      - clang
       - make
 
   - name: Clone TunSafe git
     become: true
     git:
-      repo: https://github.com/askiiart/TunSafe-clang15.git
+      repo: https://github.com/dr0pl3ss/TunSafe.git
       dest: /opt/tunsafe
       force: yes
 
